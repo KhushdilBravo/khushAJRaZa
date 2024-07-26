@@ -1,0 +1,361 @@
+body{
+    background: transparent;
+    height: 100vh;
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(sexx.jpeg);
+    background-size: cover;
+    background-position: center ;
+    
+}
+
+
+.container{
+    /* background: rgb(125, 10, 231); */
+    cursor:pointer;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+    position:relative;
+    padding:20px 30px;
+    color:rgb(225, 62, 7);
+
+}
+
+
+.container::after{
+    content: '';
+    background: transparent;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right:0;
+    bottom:0;
+z-index: 0;
+clic-path:circle(10% at 100% 100%);
+transition:all .4s ease-in;
+
+
+
+}
+
+
+
+.content{
+    position:relative;
+    z-index: 1;
+    transition:all .5s ease-in;
+}
+
+
+
+
+.content h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:black;
+    
+}
+
+
+
+
+
+
+
+.content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    bottom:30px;
+}
+
+.container:hover::after{
+    clic-path: circle(100%);
+
+}
+
+
+.container:hover .content{
+    color:rgb(23, 232, 148);
+    background-image:url(ssb.jpeg);
+    background-size: cover;
+    background-position: center ;
+    height: 100%;
+    width: 100%;
+    bottom:5%;
+    border-radius: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mom{
+    /* background: rgb(208, 26, 228); */
+    cursor:pointer;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+    position:relative;
+    padding:20px 30px;
+    color:rgb(4, 109, 184);
+
+}
+
+
+
+
+.mom::after{
+    content: '';
+    background: transparent;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right:0;
+    bottom:0;
+z-index: 0;
+clic-path:circle(10% at 100% 100%);
+transition:all .4s ease-in;
+}
+
+
+
+
+
+
+.dad{
+    position:relative;
+    z-index: 1;
+    transition:all .5s ease-in;
+}
+
+
+
+
+
+
+.dad h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    color:rgb(139, 225, 9);
+    
+}
+
+
+
+
+.dad p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+
+
+.mom:hover::after{
+    clic-path: circle(100%);
+
+}
+
+
+.mom:hover .dad{
+    color:rgb(236, 9, 66);
+    background-image:url(domm.jpeg);
+    background-size: cover;
+    background-position: center ;
+    height: 100%;
+    bottom:6%;
+    border-radius: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bro{
+    /* background: rgb(208, 26, 228); */
+    cursor:pointer;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+    position:relative;
+    padding:20px 30px;
+    color:rgb(220, 220, 6);
+
+}
+
+
+
+
+.bro::after{
+    content: '';
+    background: transparent;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right:0;
+    bottom:0;
+z-index: 0;
+clic-path:circle(10% at 100% 100%);
+transition:all .4s ease-in;
+}
+
+
+
+
+
+
+.jr{
+    position:relative;
+    z-index: 1;
+    transition:all .5s ease-in;
+}
+
+
+
+
+
+
+.jr h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color:rgb(232, 10, 13);
+    
+}
+
+
+
+
+.jr p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    /* color: rgb(11, 37, 233); */
+}
+
+
+
+
+
+.bro:hover::after{
+    clic-path: circle(100%);
+
+}
+
+
+.bro:hover .jr{
+    color:rgb(20, 19, 19);
+    background-image:url(JR.jpeg);
+    background-size: cover;
+    background-position: center ;
+    height: 100%;
+    width: 100%;
+    bottom:8%;
+    border-radius: 2%;
+    
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
